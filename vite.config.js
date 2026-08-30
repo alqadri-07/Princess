@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/Princess/', // WAJIB ada agar path file tidak 404 di GitHub Pages
+  base: '/Princess/', // Sesuaikan dengan nama repository GitHub Anda
   plugins: [
     react(),
     tailwindcss(),
