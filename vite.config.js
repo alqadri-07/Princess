@@ -3,13 +3,11 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/Princess/',
-
+  base: '/Princess/', // WAJIB ada agar path file tidak 404 di GitHub Pages
   plugins: [
     react(),
     tailwindcss(),
   ],
-
   build: {
     minify: 'terser',
     terserOptions: {
